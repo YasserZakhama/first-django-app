@@ -40,6 +40,8 @@ class Login(models.Model):
     password=models.CharField(max_length=50)
     def __str__(self):
         return self.username
+    def createUser():
+        return "Hello User"
 
 
 
